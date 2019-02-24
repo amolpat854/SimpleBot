@@ -1,0 +1,32 @@
+{
+    "name": "BasicBot",
+    "description": "",
+  "services": [
+    {
+      "type": "endpoint",
+      "id": "1",
+      "name": "development",
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "http://localhost:3978/api/messages"
+    },
+    {
+      "type": "luis",
+      "name": "AmolTestBot2-8c3f",
+      "appId": "ee223fca-177f-4626-a188-8c4d11e3c933",
+      "authoringKey": "7da79849120d43ff917bd79b237804fb",
+      "subscriptionKey": "7da79849120d43ff917bd79b237804fb",
+      "version": "0.1",
+      "region": "westus",
+      "id": "34"
+    },
+    {
+      "type": "blob", //Must be 'blob'
+      "name": "flightsearchstorage",
+      "connectionString": "DefaultEndpointsProtocol=https;AccountName=flightsearchstorage;AccountKey=JB/qZvGTnnSHFz1w1zKT08tgUzReUtTIyXxZHkZuDR1XUvSqcfNjaGoFOFYTleNhxVm8ErTY05FM0JmRCFaLuQ==;EndpointSuffix=core.windows.net",
+      "container": "<NAME OF CONTAINER IN STORAGE>"
+    }
+  ],
+    "padlock": "",
+    "version": "2.0"
+}
